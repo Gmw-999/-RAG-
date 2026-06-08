@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# 环境变量 (含真实密钥)
+.env
+
+# 向量数据库 (大文件，本地重建即可)
+chroma_db/
+data/chroma_db/
+data/test_chroma/
+
+# 数据缓存
+data/chunks_cache.json
+
+# 临时文件
+docx_unpacked/
+improve_doc.py
+temp_doc.md
+
+# 外部项目
+wise-field/
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
